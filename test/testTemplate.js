@@ -2,7 +2,8 @@
 
 /* Add the dependencies you're testing */
 const Crowdsale = artifacts.require("./Crowdsale.sol");
-// YOUR CODE HERE
+import "truffle/Assert.sol";
+import "truffle/DeployedAddresses.sol";
 
 contract('testTemplate', function(accounts) {
 	/* Define your constant variables and instantiate constantly changing 
@@ -14,21 +15,23 @@ contract('testTemplate', function(accounts) {
 
 	/* Do something before every `describe` method */
 	beforeEach(async function() {
-		// YOUR CODE HERE
+		token = Crowdsale.new(100, 1.0, 1000);
 	});
 
 	/* Group test cases together 
 	 * Make sure to provide descriptive strings for method arguements and
 	 * assert statements
 	 */
-	describe('Your string here', function() {
-		it("your string here", async function() {
-			// YOUR CODE HERE
+	describe('Basic Tests', function() {
+		it("erc20 tests", async function() {
+			Assert.equal(token.totalSupply, 100);
 		});
-		// YOUR CODE HERE
+
 	});
 
 	describe('Your string here', function() {
-		// YOUR CODE HERE
+		it("sending money", async function() {
+			let balance = await Crowdsale.getBalance.call
+		});
 	});
 });
