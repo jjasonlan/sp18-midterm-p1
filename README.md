@@ -5,27 +5,27 @@ Welcome to the Blockchain for Developers DeCal's midterm assignment. You'll be d
 
 ###### Project Partner 1
 
-Name:
+Name: Jason Lan
 
-SID:
+SID: 3031940757
 
-Email:
+Email: jjasonlan@berkeley.edu
 
 ###### Project Partner 2
 
-Name:
+Name: Conner Lambden
 
-SID:
+SID: 25573911
 
-Email:
+Email: connerlambden@berkeley.edu
 
 ###### Project Partner 3 (if any)
 
-Name:
+Name: Jeremiah Hsu
 
-SID:
+SID: 3038973790
 
-Email:
+Email: jerry.hsu@berkeley.edu
 
 ## Midterm Instructions
 
